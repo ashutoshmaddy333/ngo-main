@@ -9,7 +9,7 @@ dotenv.config() // Load environment variables
 
 // Initialize Express
 const app = express()
-app.use(cors({ origin: "http://localhost:5173", credentials: true }));
+app.use(cors({ origin: "https://ngo-main-3.onrender.com/ " ,credentials: true }));
 
 // Security Middleware
 app.use(helmet()) // Adds various HTTP headers for security
